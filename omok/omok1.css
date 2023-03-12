@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.tile{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border: solid 1px black;
+    align-items: center;
+    justify-content: center;
+}

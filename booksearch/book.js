@@ -39,7 +39,8 @@ function searchRequest(query, page){
     })
     .done((response) => {
         console.log(response);
-        // container 안에 
+
+    // container 안에 
     //  <div class="result-card">
     //     <img class = "book-img" src="/book.png" alt="">
     //     <h4 class="book-title">도서제목</h4>
@@ -51,6 +52,9 @@ function searchRequest(query, page){
     // </div>
 
     // 새로 생성 및 구성 완료한 result-card요소를 추가
+
+
+
 
     });
 }
