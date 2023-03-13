@@ -29,7 +29,7 @@ searchBox.addEventListener("submit", e =>{
     }
 })
 
-// function setSize(query, page) {
+// function setSize(query, page) { 
 
 //     $.ajax({
 //         "url": `https://dapi.kakao.com/v3/search/book?query=${query}&page=${page}&size=${size}&target=title`,
@@ -134,7 +134,7 @@ function searchRequest(query, page) {
                 page --;
                 searchRequest(query, page);
             })
-        }
+        } 
 
         pageMove.append(backBtn);
 

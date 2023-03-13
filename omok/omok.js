@@ -5,6 +5,7 @@ const board = document.getElementById("board");
 const map = document.createElement("div");
 map.className = "map";
 
+
 // 변수 설정
 let win = 0;
 let turn = 1;
@@ -20,7 +21,7 @@ function setMap() {
             // tile.setAttribute("id", id);
             tile.id = id;
             tile.className = "tile";
-
+ 
             
             tile.addEventListener("click", e => {
                 console.log(id); // 
