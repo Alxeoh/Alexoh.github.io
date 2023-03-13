@@ -47,6 +47,7 @@ function winCheck() {
     checkReverse();
     if(win!= 0){
         alert(`p${turn} Win!!`);
+        reset();
     }
 }
 
@@ -130,4 +131,9 @@ function checkReverse(){
             }
         }
     }
+}
+function reset(){
+    turn = 1;
+    win = 0;
+    location.reload();   
 }
