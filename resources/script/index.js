@@ -105,3 +105,15 @@ const bookSearch = new Project(
 );
 
 addProject(bookSearch, "frontend", "contain", "center");
+
+const atm  = new Project(
+    "https://github.com/Alxeoh/atm.git",
+    "머신 일러스트 이미지 주소",
+    "Hyuntaek BANK",
+    "Console ATM (Java mini project",
+    ['java'],
+    ['2023..03.13',"2023.03.13"]
+);
+
+
+addProject(atm, "backend", "contain", "center");

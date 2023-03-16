@@ -3,15 +3,11 @@
     padding: 0;
 }
 
-
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 .map {
     display: flex;
@@ -25,7 +21,9 @@ body {
     display: flex;
     width: 48px;
     height: 48px;
-    border: solid 1px black;
+    border: solid 1px black; 
+    background-color: tan;
     align-items: center;
     justify-content: center;
 }
+

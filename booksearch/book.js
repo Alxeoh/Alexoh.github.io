@@ -21,37 +21,24 @@ const searchBox = document.querySelector(".search-box");
 searchBox.addEventListener("submit", e =>{
     e.preventDefault();
     if(query !== "") {
-        // setSize(query.value, page);
-        // console.log(size);
         page = 1;
         searchRequest(query.value, page);
         query.value = "";
     }
 })
 
-// function setSize(query, page) { 
+var settings = {
+  "url": "https://dapi.kakao.com/v2/search/web?query=강아지&page=1&size=10&target=title",
+  "method": "GET",
+  "timeout": 0,
+  "headers": {
+    "Authorization": "KakaoAK 1443eefdf61533db439cbc61db7f9226"
+  },
+};
 
-//     $.ajax({
-//         "url": `https://dapi.kakao.com/v3/search/book?query=${query}&page=${page}&size=${size}&target=title`,
-//         "method": "GET",
-//         "timeout": 0,
-//         "headers": {
-//             "Authorization": "KakaoAK 5e0b5e06e4fb88f8a3728d0c4aa130eb"
-//         },
-//     })
-//     .done((response) => {
-//         const container = document.querySelector(".container");
-//         container.innerText = ""; 
-//         let result = response.documents;
-        
-//         for(let i=0; i<result.length; i++) {
-//             if(result[i].thumbnail === ""){
-//                 size ++;
-//             }
-//         }
-//     })
-// }
-
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
 
 function searchRequest(query, page) {
     $.ajax({
@@ -155,4 +142,14 @@ function searchRequest(query, page) {
         pageMove.append(nextBtn);
 
     });
-}
+
+    const atm  = new Project(
+        "atm 레포지토리 주소",
+        "머신 일러스트 이미지 주소",
+        "Hyuntaek BANK",
+        "Console ATM (Java mini project",
+        ['java'],
+        ['2023..03.13',"2023.03.13"]
+    );
+    
+    }
