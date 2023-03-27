@@ -143,13 +143,6 @@ function searchRequest(query, page) {
 
     });
 
-    const atm  = new Project(
-        "atm 레포지토리 주소",
-        "머신 일러스트 이미지 주소",
-        "Hyuntaek BANK",
-        "Console ATM (Java mini project",
-        ['java'],
-        ['2023..03.13',"2023.03.13"]
-    );
-    
+   
+
     }
