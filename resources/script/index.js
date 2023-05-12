@@ -95,6 +95,44 @@ const sample = new Project(
 addProject(sample, "frontend", "cover", "center");
 */
 
+const icando = new Project(
+    "/Icando",
+    "/resources/images/icando.png",
+    "Yes I can Do",
+    "A site that matches users and agents to ask for work",
+    ['KakaoPay api', 'firebase', 'MySQL', 'JPA','jQuery','Spring Boot','html','css', 'VanilaJS'],
+    ['2023.04.23', "2023.05.15"]
+);
+
+addProject(icando, "frontend", "contain", "center");
+
+
+const rentcarSystem = new Project(
+    "https://github.com/Alxeoh/RentcarSystem.git",
+    "/resources/images/rentcarService.png",
+    "RentcarService",
+    "Booking Rentcar, Select location and type detail",
+    ['VanilaJS', 'Oracle', 'Java','html','css'],
+    ['2023.03.13', "2023.03.13"]
+);
+
+addProject(rentcarSystem, "frontend", "contain", "center");
+
+
+const shoppingmall = new Project(
+    "https://github.com/Alxeoh/Shoppingmall_Memeber_Managerment.git",
+    "/resources/images/shoppingMall.png",
+    "ShoppingMall",
+    "Management ShoppingMall User",
+    ['Oracle', 'Java','html','css', 'js'],
+    ['2023.04.01', "2023.04.01"]
+);
+
+addProject(shoppingmall, "frontend", "contain", "center");
+
+
+
+
 const bookSearch = new Project(
     "/booksearch",
     "https://em-content.zobj.net/thumbs/240/facebook/65/left-pointing-magnifying-glass_1f50d.png",
@@ -106,13 +144,62 @@ const bookSearch = new Project(
 
 addProject(bookSearch, "frontend", "contain", "center");
 
+
+const Omok = new Project(
+    "/omok",
+    "https://play-lh.googleusercontent.com/b3YbxE9rDerRe1mnJXcoy2RfppdVUKDkFR0rghzm0dBUETdGhzC5_Vh_DWMboFPC8w",
+    "Omok Game",
+    "Omok Game",
+    ['VanilaJS', 'jQeury', 'Kakao Search API'],
+    ['2023.03.16', "2023.03.18"]
+);
+
+addProject(Omok, "frontend", "contain", "center");
+
+
+const PMS  = new Project(
+    "http://parkingmanager.store",
+    "/resources/images/PMS.png",
+    "PMS주차예약매니저",
+    "PMS(JSP project)",
+    ['KakaoMap api','jsp', 'mySQL', 'css', 'html', 'js'],
+    ['2023.04.12',"2023.04.21"]
+);
+
+addProject(PMS, "backend", "contain", "center");
+
+
 const atm  = new Project(
     "https://github.com/Alxeoh/atm.git",
     "/resources/images/은행.jpeg",
-    "Hyuntaek BANK",
-    "Console ATM (Java mini project",
+    "Alex BANK",
+    "Console ATM (Java mini project)",
     ['java'],
     ['2023..03.13',"2023.03.13"]
 );
 
 addProject(atm, "backend", "contain", "center");
+
+
+const zombieGame  = new Project(
+    "https://github.com/Alxeoh/Zombie_Game.git",
+    "/resources/images/zombieGame.png",
+    "Zombie minigame",
+    "Console zombie (Java mini project)",
+    ['java'],
+    ['2023..03.25',"2023.03.29"]
+);
+
+addProject(zombieGame, "backend", "contain", "center");
+
+
+const textRPG  = new Project(
+    "https://github.com/Alxeoh/RPG-Game.git",
+    "/resources/images/textRPG.png",
+    "textRPG minigame",
+    "Console RPG-GAME (Java mini project)",
+    ['java'],
+    ['2023.04.02.',"2023.04.06"]
+);
+
+addProject(textRPG, "backend", "contain", "center");
