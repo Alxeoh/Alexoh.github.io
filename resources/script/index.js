@@ -96,7 +96,7 @@ addProject(sample, "frontend", "cover", "center");
 */
 
 const icando = new Project(
-    "/Icando",
+    "http://icando.store",
     "/resources/images/icando.png",
     "Yes I can Do",
     "A site that matches users and agents to ask for work",
